@@ -1,0 +1,7 @@
+= htmldiff
+
+Description goes here.
+
+== Copyright
+
+Copyright (c) 2009 robl. See LICENSE for details.

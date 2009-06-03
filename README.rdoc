@@ -13,7 +13,7 @@ DiffRenderer creates pretty HTML diffs for text and bits of html documents.
   new_text = ['This is some text']
   puts DiffRenderer.new(old_text, new_text).to_html
 
-Outputs :
+Generates :
 
   <p>
   This <span class="removed">was</span> <span class="added">is</span> some text
@@ -25,6 +25,7 @@ See the examples directory for more details.
 == Credits
 
 Original code produced by Rattle (http://www.rattlecentral.com) with the help of Ashley Moran (http://github.com/ashleymoran/)
+
 Gemified by robl (http://www.monkeyhelper.com)
 
 == TODO

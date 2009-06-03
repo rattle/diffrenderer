@@ -4,23 +4,19 @@ DiffRenderer creates pretty HTML diffs for text and bits of html documents.
 
 == Example Usage
 
-<pre>
-#!/usr/bin/ruby
+  #!/usr/bin/ruby
+  
+  require 'rubygems'
+  require 'diffrenderer'
 
-require 'rubygems'
-require 'diffrenderer'
+  old_text = ['This was some text']
+  new_text = ['This is some text']
+  
 
-old_text = ['This was some text']
-new_text = ['This is some text']
-
-puts DiffRenderer.new(old_text, new_text).to_html
-</pre>
-
-<pre>
-<p>
+  <p>
   This <span class="removed">was</span> <span class="added">is</span> some text
-</p>
-</pre>
+  </p>
+
 
 See the examples directory for more details.
 

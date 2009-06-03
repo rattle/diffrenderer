@@ -11,7 +11,7 @@ DiffRenderer creates pretty HTML diffs for text and bits of html documents.
 
   old_text = ['This was some text']
   new_text = ['This is some text']
-  
+  puts DiffRenderer.new(old_text, new_text).to_html
 
 Outputs :
 

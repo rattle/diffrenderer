@@ -25,6 +25,7 @@ See the examples directory for more details.
 == Credits
 
 Original code produced by Rattle (http://www.rattlecentral.com) with the help of Ashley Moran (http://github.com/ashleymoran/)
+Gemified by robl (http://www.monkeyhelper.com)
 
 == TODO
 

@@ -6,7 +6,7 @@ begin
   Jeweler::Tasks.new do |gem|
     gem.name = "diffrenderer"
     gem.summary = %Q{TODO}
-    gem.email = "robl@monkeyhelper.com"
+    gem.email = "robl[at]monkeyhelper.com"
     gem.homepage = "http://github.com/monkeyhelper/diffrenderer"
     gem.authors = ["robl"]
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings

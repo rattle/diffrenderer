@@ -13,6 +13,8 @@ DiffRenderer creates pretty HTML diffs for text and bits of html documents.
   new_text = ['This is some text']
   
 
+Outputs :
+
   <p>
   This <span class="removed">was</span> <span class="added">is</span> some text
   </p>

@@ -19,6 +19,9 @@ Gem::Specification.new do |s|
      "README.rdoc",
      "Rakefile",
      "VERSION",
+     "diffrenderer.gemspec",
+     "examples/diff-html.rb",
+     "examples/diff-text.rb",
      "lib/diffrenderer.rb",
      "lib/diffrenderer/paragraph_block.rb",
      "lib/word_run_diff_lcs.rb",
@@ -34,7 +37,8 @@ Gem::Specification.new do |s|
   s.test_files = [
     "test/diffrenderer_test.rb",
      "test/test_helper.rb",
-     "examples/diff.rb"
+     "examples/diff-text.rb",
+     "examples/diff-html.rb"
   ]
 
   if s.respond_to? :specification_version then

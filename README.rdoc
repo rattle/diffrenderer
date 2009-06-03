@@ -1,7 +1,31 @@
-= htmldiff
+= DiffRenderer
 
-Description goes here.
+DiffRenderer creates pretty HTML diffs for text and bits of html documents.
+
+== Example Usage
+
+<pre>
+<code>
+#!/usr/bin/ruby
+
+require 'rubygems'
+require 'diffrenderer'
+
+old_text = ['This was some text']
+new_text = ['This is some text']
+
+puts DiffRenderer.new(old_text, new_text).to_html
+</code>
+</pre>
+
+<pre>
+<p>
+  This <span class="removed">was</span> <span class="added">is</span> some text
+</p>
+</pre>
+
+See the examples directory for more details.
 
 == Copyright
 
-Copyright (c) 2009 robl. See LICENSE for details.
+Copyright (c) 2009 Rattle http://www.rattlecentral.com. See LICENSE for details.

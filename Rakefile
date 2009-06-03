@@ -4,10 +4,10 @@ require 'rake'
 begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
-    gem.name = "htmldiff"
+    gem.name = "diffrenderer"
     gem.summary = %Q{TODO}
     gem.email = "robl@monkeyhelper.com"
-    gem.homepage = "http://github.com/monkeyhelper/htmldiff"
+    gem.homepage = "http://github.com/monkeyhelper/diffrenderer"
     gem.authors = ["robl"]
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
@@ -49,7 +49,7 @@ Rake::RDocTask.new do |rdoc|
   end
 
   rdoc.rdoc_dir = 'rdoc'
-  rdoc.title = "htmldiff #{version}"
+  rdoc.title = "diffrenderer #{version}"
   rdoc.rdoc_files.include('README*')
   rdoc.rdoc_files.include('lib/**/*.rb')
 end

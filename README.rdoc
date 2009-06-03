@@ -22,6 +22,15 @@ Outputs :
 
 See the examples directory for more details.
 
+== Credits
+
+Original code produced by Rattle (http://www.rattlecentral.com) with the help of Ashley Moran (http://github.com/ashleymoran/)
+
+== TODO
+
+* Add some tests
+* Further documentation - description of process, multi-paragraph example
+
 == Copyright
 
 Copyright (c) 2009 Rattle http://www.rattlecentral.com. See LICENSE for details.

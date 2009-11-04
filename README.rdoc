@@ -28,7 +28,7 @@ Original code produced by Rattle (http://www.rattlecentral.com) with the help of
 
 Gemified by robl (http://www.monkeyhelper.com)
 
-== Todos
+== Todo
 
 * Add some tests
 * Further documentation - description of process, multi-paragraph example

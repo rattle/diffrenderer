@@ -5,7 +5,7 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "diffrenderer"
-    gem.summary = %Q{TODO}
+    gem.summary = %Q{Takes two pieces of source text/html and creates a neato html diff output}
     gem.email = "code[at]rattlecentral.com"
     gem.homepage = "http://github.com/rattle/diffrenderer"
     gem.authors = ["robl"]

@@ -32,7 +32,7 @@ Gem::Specification.new do |s|
   s.rdoc_options = ["--charset=UTF-8"]
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.3.5}
-  s.summary = %q{TODO}
+  s.summary = %q{Takes two pieces of source text/html and creates a neato html diff output}
   s.test_files = [
     "test/diffrenderer_test.rb",
      "test/test_helper.rb",
